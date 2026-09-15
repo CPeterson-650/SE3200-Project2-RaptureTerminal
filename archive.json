@@ -1,0 +1,27 @@
+[
+    {
+        "location": "Medical Pavilion",
+        "description": "Once the center of medical research in Rapture, the pavilion is now heavily damaged and occupied by Splicers.",
+        "status": "Dangerous"
+    },
+    {
+        "location": "Neptune's Bounty",
+        "description": "Rapture's primary fisheries district. Smuggling operations once operated throughout the area.",
+        "status": "Hostile"
+    },
+    {
+        "location": "Arcadia",
+        "description": "The botanical center responsible for producing much of Rapture's oxygen.",
+        "status": "Unstable"
+    },
+    {
+        "location": "Fort Frolic",
+        "description": "A former entertainment district containing theaters, shops, and galleries.",
+        "status": "Extremely Dangerous"
+    },
+    {
+        "location": "Welcome Center",
+        "description": "The original arrival point for citizens entering the city of Rapture.",
+        "status": "Partially Secure"
+    }
+]

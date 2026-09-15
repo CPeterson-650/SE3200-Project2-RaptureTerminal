@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rapture Survival Terminal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="terminal">
+
+        <header>
+            <h1>Rapture Survival Terminal</h1>
+
+            <p class="intro">
+                Welcome, citizen. Generate a randomized survival mission
+                somewhere within the underwater city of Rapture.
+            </p>
+        </header>
+
+        <section class="controls">
+
+            <button id="generate-button">
+                Generate Mission
+            </button>
+
+            <button id="archive-button">
+                Load Rapture Archive
+            </button>
+
+            <button id="clear-button">
+                Clear Mission Log
+            </button>
+
+        </section>
+
+        <section class="panel">
+
+            <h2>Current Mission</h2>
+
+            <div id="mission-display" class="mission-display">
+                <p>No mission generated yet.</p>
+            </div>
+
+        </section>
+
+        <section class="panel">
+
+            <h2>Mission Log</h2>
+
+            <div id="mission-log">
+                <p id="empty-log">No completed mission assignments.</p>
+            </div>
+
+        </section>
+
+        <section class="panel">
+
+            <h2>Rapture Archive</h2>
+
+            <div id="archive-display">
+                <p>Archive data has not been loaded.</p>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>Rapture Security Network // Access Level: Citizen</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
